@@ -5,8 +5,10 @@ html, body {
 }
 .container {
 	width: 80vw;
+	height: 100vw;
 	margin-right: auto;
 	margin-left: auto;
+	background: #FFFFFF;
 }
 
 
@@ -68,8 +70,8 @@ section {
 	position: absolute;
 	width: 450px;
 	height: 43px;
-	left: 96px;
-	top: 228px;
+	left: 0px;
+	top: 50px;
 
 	font-family: 'Comfortaa';
 	font-style: normal;
@@ -84,8 +86,8 @@ section {
 	position: absolute;
 	width: 500px;
 	height: 43px;
-	left: 693px;
-	top: 228px;
+	left: 550px;
+	top: 50px;
 
 	font-family:'Comfortaa';
 	font-style: normal;
@@ -100,10 +102,10 @@ section {
 
 .rectangle2 {
 	position: relative;
-	width: 552px;
+	width: 500px;
 	height: 215px;
-	left: 96px;
-	top: 299px;
+	left: 0px;
+	top: 125px;
 
 	background: #FFFFFF;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -113,8 +115,8 @@ section {
 	position: absolute;
 	width: 652px;
 	height: 479px;
-	left: 693px;
-	top: 299px;
+	left: 550px;
+	top: 125px;
 
 	background: #FFFFFF;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -144,15 +146,15 @@ color: #000000;
 /* Rectangle 3 */
 
 .selectAudio {
-	/*position: absolute;*/
+	position: absolute;
 /*	width: 245px;
 	height: 61px;
 	left: 356px;
 	top: 335px;*/
 	width: 199px;
 	height: 61px;
-	left: 128px;
-	top: 420px;
+	left: 250px;
+	top: 40px;
 
 	background: #E5E5E5;
 	border: 1px solid #948989;
@@ -163,7 +165,6 @@ color: #000000;
 	cursor: pointer;
 	text-align: center;
 	padding: 15px 32px;
-	display: inline-flex;
 	font-family: 'Comfortaa';
 	white-space: normal;
 }
@@ -172,11 +173,12 @@ color: #000000;
 
 /* Rectangle 3.1 */
 .uploadButton {
-	/*position: absolute;*/
+	position: absolute;
+
+	left: 20px;
+	top: 130px;
 	width: 199px;
 	height: 61px;
-	left: 128px;
-	top: 420px;
 
 	background: #59B298;
 	border: 1px solid #948989;
@@ -187,7 +189,6 @@ color: #000000;
 	cursor: pointer;
 	text-align: center;
 	padding: 15px 32px;
-	display: inline-block;
 	font-family: 'Comfortaa';
 
 }
@@ -195,11 +196,12 @@ color: #000000;
 
 /* Rectangle 3.2 */
 .cancelButton {
-	/*position: absolute;*/
+	position: absolute;
+
+	left: 250px;
+	top: 130px;
 	width: 199px;
 	height: 61px;
-	left: 356px;
-	top: 420px;
 
 	background: #E75C5C;
 	border: 1px solid #948992;
@@ -218,137 +220,3 @@ color: #000000;
 
 
 
-/* Cancel */
-.cancel {
-	position: absolute;
-	width: 74px;
-	height: 29px;
-	left: 417px;
-	top: 436px;
-
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: normal;
-	line-height: normal;
-	font-size: 24px;
-
-	color: #FFFFFF;
-}
-
-.larger-text {
-	font-size: 32pt;
-}
-
-.smaller-text {
-	font-size: 24pt;
-}
-
-.name-text {
-	color: red;
-}
-
-/* WORK */
-.work-container {
-	padding-top: 64px;
-}
-
-.work-title {
-	font-size: 32pt;
-}
-
-.project-container {
-	padding-top: 64px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.project {
-	display: flex;
-	flex-direction: column;
-	width: 30%;
-}
-
-.project > span {
-	font-size: 24pt;
-	font-weight: bold;
-	width: 50%
-}
-
-.project > p {
-	font-size: 16pt;
-}
-
-.project-img {
-	width: 100%;
-	/*width: 256px;*/
-}
-
-/* CONTACT */
-.contact-container {
-	padding-top: 128px;
-}
-
-.contact-title {
-	font-size: 32pt;
-}
-
-.contact-text {
-	font-size: 24pt;
-	width: 40vw;
-}
-
-.email {
-	font-size: 20pt;
-	font-weight: bold;
-}
-
-.links {
-	margin-top: 64px;
-	display: flex;
-	flex-direction: row;
-/*	justify-content: space-between;
-*/}
-
-.links > a {
-	padding-right: 32px;
-}
-.link-img {
-	height: 64px;
-}
-
-/* MOBILE */
-@media (max-width: 700px) {
-	.nav-menu {
-		display: none;
-	}
-
-	.about-container {
-		width: 90vw;
-		padding-top: 0px;
-	}
-
-	.larger-text {
-		font-size: 24pt;
-	}
-	.smaller-text {
-		font-size: 22pt;
-	}
-
-	.project-container {
-		flex-direction: column;
-	}
-
-	.project {
-		width: 90vw;
-	}
-
-	#work {
-		height: auto;
-	}
-
-	.contact-text {
-		width: 90vw;
-	}
-
-}
