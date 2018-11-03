@@ -64,6 +64,143 @@ section {
 	left: 0px;
 }
 
+.rectangle2 {
+	position: relative;
+	width: 552px;
+	height: 215px;
+	left: 96px;
+	top: 299px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle1 {
+	position: relative;
+	width: 652px;
+	height: 479px;
+	left: 693px;
+	top: 299px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.selectFile {
+position: absolute;
+width: 199px;
+height: 29px;
+left: 128px;
+top: 351px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 24px;
+
+color: #000000;
+}
+
+/* Rectangle 3 */
+
+.rectangle3 {
+	position: relative;
+	width: 245px;
+	height: 61px;
+	left: 356px;
+	top: 335px;
+
+	background: #E5E5E5;
+	border: 1px solid #948989;
+	box-sizing: border-box;
+}
+
+
+
+/* Rectangle 3.1 */
+.rectangle3.1 {
+	position: relative;
+	width: 199px;
+	height: 61px;
+	left: 128px;
+	top: 420px;
+
+	background: #59B298;
+	border: 1px solid #948989;
+	box-sizing: border-box;
+}
+
+
+/* Rectangle 3.2 */
+.rectangle3.2 {
+	position: relative;
+	width: 199px;
+	height: 61px;
+	left: 356px;
+	top: 420px;
+
+	background: #E75C5C;
+	border: 1px solid #948992;
+	box-sizing: border-box;
+}
+
+
+/* Select audio file */
+.selectAudio {
+	position: relative;
+	width: 170px;
+	height: 29px;
+	left: 393px;
+	top: 351px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	color: #000000;
+}
+
+
+
+/* Upload File */
+.uploadFile {
+	position: absolute;
+	width: 119px;
+	height: 29px;
+	left: 168px;
+	top: 436px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	color: #FFFFFF;
+}
+
+
+
+/* Cancel */
+.cancel {
+	position: absolute;
+	width: 74px;
+	height: 29px;
+	left: 417px;
+	top: 436px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+
+	color: #FFFFFF;
+}
+
 .larger-text {
 	font-size: 32pt;
 }
@@ -119,7 +256,7 @@ section {
 }
 
 .contact-title {
-	font-size: 32pt; 
+	font-size: 32pt;
 }
 
 .contact-text {
