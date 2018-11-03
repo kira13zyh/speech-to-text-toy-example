@@ -64,6 +64,40 @@ section {
 	left: 0px;
 }
 
+.titleUpload {
+	position: absolute;
+	width: 450px;
+	height: 43px;
+	left: 96px;
+	top: 228px;
+
+	font-family: 'Comfortaa';
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 36px;
+
+	color: #3C7967;
+}
+
+.titleTranscript {
+	position: absolute;
+	width: 500px;
+	height: 43px;
+	left: 693px;
+	top: 228px;
+
+	font-family:'Comfortaa';
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 36px;
+
+	color: #3C7967;
+}
+
+
+
 .rectangle2 {
 	position: relative;
 	width: 552px;
@@ -88,13 +122,12 @@ section {
 }
 
 .selectFile {
-position: absolute;
 width: 199px;
 height: 29px;
 left: 128px;
 top: 351px;
 
-font-family: 'Roboto';
+font-family: 'Comfortaa';
 font-style: normal;
 font-weight: normal;
 line-height: normal;
