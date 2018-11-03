@@ -5,12 +5,11 @@ html, body {
 }
 .container {
 	width: 80vw;
-	height: 100vw;
+	height: 80vw;
 	margin-right: auto;
 	margin-left: auto;
 	background: #FFFFFF;
 }
-
 
 /* NAVIGATION BAR */
 .nav-bar {
@@ -98,8 +97,6 @@ section {
 	color: #3C7967;
 }
 
-
-
 .rectangle2 {
 	position: relative;
 	width: 500px;
@@ -152,9 +149,9 @@ color: #000000;
 	left: 356px;
 	top: 335px;*/
 	width: 199px;
-	height: 61px;
-	left: 250px;
-	top: 40px;
+	height: 50px;
+	left: 265px;
+	top: 50px;
 
 	background: #E5E5E5;
 	border: 1px solid #948989;
@@ -175,8 +172,8 @@ color: #000000;
 .uploadButton {
 	position: absolute;
 
-	left: 20px;
-	top: 130px;
+	left: 35px;
+	top: 125px;
 	width: 199px;
 	height: 61px;
 
@@ -198,8 +195,8 @@ color: #000000;
 .cancelButton {
 	position: absolute;
 
-	left: 250px;
-	top: 130px;
+	left: 265px;
+	top: 125px;
 	width: 199px;
 	height: 61px;
 
