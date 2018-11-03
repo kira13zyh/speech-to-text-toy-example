@@ -104,23 +104,36 @@ color: #000000;
 
 /* Rectangle 3 */
 
-.rectangle3 {
-	position: absolute;
-	width: 245px;
+.selectAudio {
+	/*position: absolute;*/
+/*	width: 245px;
 	height: 61px;
 	left: 356px;
-	top: 335px;
+	top: 335px;*/
+	width: 199px;
+	height: 61px;
+	left: 128px;
+	top: 420px;
 
 	background: #E5E5E5;
 	border: 1px solid #948989;
 	box-sizing: border-box;
+	color: black;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	text-align: center;
+	padding: 15px 32px;
+	display: inline-flex;
+	font-family: 'Comfortaa';
+	white-space: normal;
 }
 
 
 
 /* Rectangle 3.1 */
-.rectangle3.1 {
-	position: absolute;
+.uploadButton {
+	/*position: absolute;*/
 	width: 199px;
 	height: 61px;
 	left: 128px;
@@ -129,12 +142,21 @@ color: #000000;
 	background: #59B298;
 	border: 1px solid #948989;
 	box-sizing: border-box;
+	color: white;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	text-align: center;
+	padding: 15px 32px;
+	display: inline-block;
+	font-family: 'Comfortaa';
+
 }
 
 
 /* Rectangle 3.2 */
-.rectangle3.2 {
-	position: absolute;
+.cancelButton {
+	/*position: absolute;*/
 	width: 199px;
 	height: 61px;
 	left: 356px;
@@ -143,44 +165,17 @@ color: #000000;
 	background: #E75C5C;
 	border: 1px solid #948992;
 	box-sizing: border-box;
+	color: white;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	text-align: center;
+	padding: 15px 32px;
+	display: inline-block;
+	font-family: 'Comfortaa';
 }
 
 
-/* Select audio file */
-.selectAudio {
-	position: absolute;
-	width: 170px;
-	height: 29px;
-	left: 393px;
-	top: 351px;
-
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: normal;
-	line-height: normal;
-	font-size: 24px;
-
-	color: #000000;
-}
-
-
-
-/* Upload File */
-.uploadFile {
-	position: absolute;
-	width: 119px;
-	height: 29px;
-	left: 168px;
-	top: 436px;
-
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: normal;
-	line-height: normal;
-	font-size: 24px;
-
-	color: #FFFFFF;
-}
 
 
 
