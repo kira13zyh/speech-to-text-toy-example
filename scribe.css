@@ -76,7 +76,7 @@ section {
 }
 
 .rectangle1 {
-	position: relative;
+	position: absolute;
 	width: 652px;
 	height: 479px;
 	left: 693px;
@@ -105,7 +105,7 @@ color: #000000;
 /* Rectangle 3 */
 
 .rectangle3 {
-	position: relative;
+	position: absolute;
 	width: 245px;
 	height: 61px;
 	left: 356px;
@@ -120,7 +120,7 @@ color: #000000;
 
 /* Rectangle 3.1 */
 .rectangle3.1 {
-	position: relative;
+	position: absolute;
 	width: 199px;
 	height: 61px;
 	left: 128px;
@@ -134,7 +134,7 @@ color: #000000;
 
 /* Rectangle 3.2 */
 .rectangle3.2 {
-	position: relative;
+	position: absolute;
 	width: 199px;
 	height: 61px;
 	left: 356px;
@@ -148,7 +148,7 @@ color: #000000;
 
 /* Select audio file */
 .selectAudio {
-	position: relative;
+	position: absolute;
 	width: 170px;
 	height: 29px;
 	left: 393px;
